@@ -39,7 +39,7 @@ namespace SampleKeepLog
             {
                 string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                 string dataToKeep = txtData.Text;
-                writer.WriteLine(timestamp + ": "+ dataToKeep);
+                writer.WriteLine(timestamp + " : "+ dataToKeep);
             }
 
             
